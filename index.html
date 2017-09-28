@@ -2,41 +2,63 @@
 <html>
 <head>
 <style>
-table, th, td {
+table{
     border: 1px solid black;
     border-collapse: collapse;
 }
 th, td {
-    padding: 5px;
+    padding: 10px;
 }
 th {
     text-align: left;
 }
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+   background-color:#fff;
+}
 </style>
 </head>
 <body>
-<h1>Hello World</h1>
-<table style="width:100%">
+<h1 style="text-align:center;"> <font face="lucida console">Poängliga 17/18</font></h1>
+<table style="width:70%", align="center"> <font face="lucida console">
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
+    <th>Plats</th>
+	<th>Namn</th>
+    <th>Matcher</th> 
+    <th>Mål</th>
+	<th>Assist</th>
+	<th>Totalt</th>
+	<th>Utv.min</th>
   </tr>
   <tr>
     <td>Jill</td>
     <td>Smith</td>
     <td>50</td>
+	<td>50</td>
+	<td>50</td>
+	<td>50</td>
+	<td>50</td>
   </tr>
   <tr>
     <td>Eve</td>
     <td>Jackson</td>
     <td>94</td>
+	<td>50</td>
+	<td>50</td>
+	<td>50</td>
+	<td>50</td>
   </tr>
   <tr>
     <td>John</td>
     <td>Doe</td>
     <td>80</td>
+	<td>50</td>
+	<td>50</td>
+	<td>50</td>
+	<td>50</td>
   </tr>
-</table>
+</font></table>
 </body>
 </html>
